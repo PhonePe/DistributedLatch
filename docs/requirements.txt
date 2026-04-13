@@ -1,0 +1,6 @@
+zensical
+markdown-include
+pymdown-extensions
+mkdocs-awesome-pages-plugin
+mkdocs-glightbox
+
