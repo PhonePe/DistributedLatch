@@ -1,6 +1,6 @@
 # Distributed Latch
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_distributed-latch&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=PhonePe_distributed-latch)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=PhonePe_distributed-latch)
 
 Distributed synchronization is a common requirement in service-oriented architectures, where a set of distributed
 workers need to signal completion to a coordinator. Java's built-in `CountDownLatch` only works within a single JVM.
