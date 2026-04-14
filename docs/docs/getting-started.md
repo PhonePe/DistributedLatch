@@ -17,13 +17,13 @@
 </dependency>
 ```
 
-Replace `${distributed-latch.version}` with the latest version from [Maven Central](https://central.sonatype.com/artifact/com.phonepe/distributed-latch) or [GitHub Releases](https://github.com/PhonePe/distributed-latch/releases).
+Replace `${distributed-latch.version}` with the latest version from [Maven Central](https://central.sonatype.com/artifact/com.phonepe/distributed-latch) or [GitHub Releases](https://github.com/PhonePe/DistributedLatch/releases).
 
 ## Build Locally
 
 ```bash
-git clone https://github.com/PhonePe/distributed-latch.git
-cd distributed-latch
+git clone https://github.com/PhonePe/DistributedLatch.git
+cd DistributedLatch
 mvn clean install
 ```
 

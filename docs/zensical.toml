@@ -1,8 +1,8 @@
 [project]
 site_name = "Distributed Latch"
-site_url = "https://phonepe.github.io/distributed-latch"
-repo_url = "https://github.com/PhonePe/distributed-latch"
-copyright = "Copyright &copy; 2024-2026 PhonePe India Pvt. Ltd."
+site_url = "https://phonepe.github.io/DistributedLatch"
+repo_url = "https://github.com/PhonePe/DistributedLatch"
+copyright = "Copyright &copy; 2026 PhonePe India Pvt. Ltd."
 
 nav = [
   {"Home" = "index.md"},

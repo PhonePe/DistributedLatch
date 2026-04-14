@@ -6,7 +6,7 @@ Thank you for considering contributing to Distributed Latch! We welcome contribu
 
 ### Reporting Bugs
 
-- Check the [issue tracker](https://github.com/PhonePe/distributed-latch/issues) to see if the bug has already been reported.
+- Check the [issue tracker](https://github.com/PhonePe/DistributedLatch/issues) to see if the bug has already been reported.
 - If not, open a new issue with a clear title, description, steps to reproduce, and expected vs actual behavior.
 
 ### Suggesting Features
@@ -18,8 +18,8 @@ Thank you for considering contributing to Distributed Latch! We welcome contribu
 1. **Fork** the repository on GitHub.
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/<your-username>/distributed-latch.git
-   cd distributed-latch
+   git clone https://github.com/<your-username>/DistributedLatch.git
+   cd DistributedLatch
    ```
 3. **Create a branch** for your change:
    ```bash
