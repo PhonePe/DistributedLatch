@@ -7,8 +7,9 @@
     <artifactId>distributed-latch</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <name>Distributed Latch</name>
     <url>https://github.com/PhonePe/DistributedLatch</url>
-    <description>Distributed Latch</description>
+    <description>A high-performance, distributed latch library for Java supporting CountDown and CountUpDown semantics.</description>
     <inceptionYear>2026</inceptionYear>
 
     <scm>
