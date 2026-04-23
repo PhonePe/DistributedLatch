@@ -7,8 +7,9 @@
     <artifactId>distributed-latch</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <name>Distributed Latch</name>
     <url>https://github.com/PhonePe/DistributedLatch</url>
-    <description>Distributed Latch</description>
+    <description>A high-performance, distributed latch library for Java supporting CountDown and CountUpDown semantics.</description>
     <inceptionYear>2026</inceptionYear>
 
     <scm>
@@ -64,6 +65,17 @@
             <url>https://clojars.org/repo</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <lombok.version>1.18.22</lombok.version>
