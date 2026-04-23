@@ -7,15 +7,15 @@
     <artifactId>distributed-latch</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <url>https://github.com/PhonePe/distributed-latch</url>
+    <url>https://github.com/PhonePe/DistributedLatch</url>
     <description>Distributed Latch</description>
     <inceptionYear>2026</inceptionYear>
 
     <scm>
-        <connection>scm:git:https://github.com/PhonePe/distributed-latch.git</connection>
-        <developerConnection>scm:git:https://github.com/PhonePe/distributed-latch.git</developerConnection>
+        <connection>scm:git:https://github.com/PhonePe/DistributedLatch.git</connection>
+        <developerConnection>scm:git:https://github.com/PhonePe/DistributedLatch.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/PhonePe/distributed-latch.git</url>
+        <url>https://github.com/PhonePe/DistributedLatch.git</url>
     </scm>
 
     <licenses>
@@ -50,12 +50,12 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/PhonePe/distributed-latch/issues</url>
+        <url>https://github.com/PhonePe/DistributedLatch/issues</url>
     </issueManagement>
 
     <ciManagement>
         <system>Travis CI</system>
-        <url>https://travis-ci.org/PhonePe/distributed-latch</url>
+        <url>https://travis-ci.org/PhonePe/DistributedLatch</url>
     </ciManagement>
 
     <repositories>
@@ -93,7 +93,7 @@
         <maven.sonar.plugin.version>3.9.1.2184</maven.sonar.plugin.version>
 
         <!-- Sonar properties -->
-        <sonar.projectKey>PhonePe_distributed-latch</sonar.projectKey>
+        <sonar.projectKey>PhonePe_DistributedLatch</sonar.projectKey>
         <sonar.organization>phonepe</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.sources>src/main</sonar.sources>
