@@ -1,6 +1,15 @@
 # Distributed Latch
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=coverage)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=bugs)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=PhonePe_DistributedLatch&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=PhonePe_DistributedLatch)
 
 Distributed synchronization is a common requirement in service-oriented architectures, where a set of distributed
 workers need to signal completion to a coordinator. Java's built-in `CountDownLatch` only works within a single JVM.
@@ -140,3 +149,12 @@ latch.countDown();
 #### Notes
 
 A latch exists only within the scope of a client represented by `CLIENT_ID`. The internal key is `D_LTCH#<clientId>#<latchId>`, so different clients can use the same latch ID without conflict.
+
+## Documentation
+
+Detailed documentation is available at **[https://phonepe.github.io/DistributedLatch/](https://phonepe.github.io/DistributedLatch/)**
+
+- [Getting Started](docs/docs/getting-started.md)
+- [Usage Guide](docs/docs/usage.md)
+- [Latch Semantics](docs/docs/latch-semantics.md)
+- [Aerospike Backend](docs/docs/storages/aerospike.md)
